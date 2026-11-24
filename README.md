@@ -4,21 +4,23 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
 
-A responsive animated team credits webpage built for **Victorius y la Ciencia**, a student science magazine project from *Escuela Secundaria Oficial No. 0940 Octavio Paz* (Spanish class).
+Página web responsiva con créditos animados, publicada mediante **GitHub Pages** y desarrollada por **Ricardo Rojas** (estudiante de **Ingeniería en Sistemas Computacionales**) para *Victorius y la Ciencia*, un proyecto escolar de revista científica de la materia de Español en la **Escuela Secundaria Oficial No. 0940 Octavio Paz**.
 
-## Technologies Used
+Además del archivo principal de créditos (`index2.html`), este repositorio guarda las imágenes de perfil del equipo (`imagen1.jpg`–`imagen5.jpg`) y documenta mis primeros pasos subiendo un sitio web estático a producción.
 
-- **HTML5** — Semantic structure for team member profiles and credits
-- **CSS3** — Flexbox layout, circular profile avatars, CSS keyframe animations (`@keyframes scroll`), and responsive media queries
-- **GitHub Pages** — Static web hosting
+## Tecnologías utilizadas
 
-## Key Features
+- **HTML5**: Estructura semántica para los perfiles y créditos de cada integrante.
+- **CSS3**: Diseño basado en Flexbox, avatares circulares, animaciones con `@keyframes scroll` y `media queries` responsivas.
+- **GitHub Pages**: Servicio de alojamiento estático para publicar la página directamente desde GitHub.
 
-- **Scrolling Credits Animation**: Continuous vertical credits sequence (`60s linear infinite`) styled with a dark cinema-inspired theme.
-- **Contributor Showcase**: Displays each team member's role, section attribution, and circular avatar image (`imagen1.jpg`–`imagen5.jpg`).
-- **Responsive Design**: Adapts smoothly from stacked mobile cards to horizontal row layouts on viewports `>= 600px`.
+## Características principales
 
-## Project Structure
+- **Animación continua de créditos**: Secuencia vertical constante (`60s linear infinite`) con estética oscura tipo créditos de cine.
+- **Muestra de colaboradores**: Presenta el rol de cada integrante, su sección asignada dentro de la revista y su fotografía en formato circular (`imagen1.jpg`–`imagen5.jpg`).
+- **Diseño adaptable**: Se ajusta automáticamente de tarjetas apiladas en móvil a filas horizontales en pantallas de `600px` o más.
+
+## Estructura del proyecto
 
 ```text
 ReySombras12.github.io/
@@ -31,10 +33,16 @@ ReySombras12.github.io/
 └── README.md
 ```
 
-## How to Run
+## Cómo verlo o probarlo en tu computadora
 
-- View online via GitHub Pages (if enabled): `https://reysombras12.github.io/index2.html`
-- Or clone the repository and open `index2.html` in any modern web browser:
-  ```bash
-  git clone https://github.com/ReySombras12/ReySombras12.github.io.git
-  ```
+- **En línea (GitHub Pages)**: Puedes consultarlo en [`https://reysombras12.github.io/index2.html`](https://reysombras12.github.io/index2.html) (cuando GitHub Pages está activo).
+- **En local**:
+  1. Clona el repositorio:
+     ```bash
+     git clone https://github.com/ReySombras12/ReySombras12.github.io.git
+     ```
+  2. Abre el archivo `index2.html` en cualquier navegador web moderno.
+
+## Aprendizajes y retos
+
+Con este proyecto aprendí a llevar una página sencilla de HTML y CSS a internet usando GitHub Pages, prestando especial atención a que las rutas de las imágenes y los estilos responsivos funcionaran igual de bien en el navegador local y en el sitio publicado.
